@@ -1,7 +1,7 @@
 class ProfileController < ApplicationController
   def show
-    render json: User.all
-    # render json: current_user
+    # render json: User.all
+    render json: current_user
   end
 
   def create
